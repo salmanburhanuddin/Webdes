@@ -1,0 +1,24 @@
+/*style yang kami pakai disini adalah style bawaan dari basic yang kami buat */
+.header{
+	width: 100%;
+	height: 30px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+/*style yang kami pakai disini adalah style bawaan dari basic yang kami buat */
+.header1{
+	width: 100%;
+	height: 150px;
+	color: white;
+	line-height: 150px;
+	background-color: purple;
+}
+
+}
+/*style untuk kolom pada content */
+.content{
+	width: 250px;
+	text-align: center;
+}

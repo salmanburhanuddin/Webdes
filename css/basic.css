@@ -1,0 +1,21 @@
+/*syle untuk hyperlink ke semua situs yang kita catum ke a herf dan menggunakan style tulisan ke tengah warna putih*/
+.header{
+	width: 100%;
+	height: 30px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+/*style untuk header dengan background putple dengan P X L 100% dan 150px*/
+.header1{
+	width: 100%;
+	height: 150px;
+	color: white;
+	line-height: 150px;
+	background-color: purple;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}

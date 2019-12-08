@@ -3,18 +3,113 @@
 <head>
 	
 	<title>Haniyah Putri Fajri Sanni - 012201900020</title>
-	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="../css/home.css">
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+
+		p{
+			text-align: left;
+			font-family: sans-serif;
+		}
+
+		body{
+			background-color: antiquewhite;
+		}
+
+		a{
+			text-decoration: none;
+			color: #000;
+			border: ;
+			text-transform: 0.6s;		
+		}
+
+		.right{
+			background-color: antiquewhite;
+			float: left;
+			width: 24.75%;
+			border: 1px solid #000;
+		}
+
+		.incontent{
+			float: left;
+			background-color: white;
+			width: 50%;
+			border: ;
+
+		}
+
+		.left{
+			float: left;
+			width: 25%;
+			background-color: gray;
+			height: 500px;
+			border: ;
+		}
+
+		.footer{
+			clear: left;
+			width: 50%;
+			border: ;
+			text-align: center;
+			letter-spacing: 2px;
+			background-color: gray;
+			margin: auto;
+		}
+
+		.header1{
+			line-height: 150px;
+		}
+
+		.header{
+			border: ;
+			width: 99.8%;
+			line-height: 70px;
+			height: 70px;
+		}
+
+		.content{
+			margin: 0;
+		}
+
+		@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+  		.left, .incontent, .right, .footer {
+  		  width:100%;
+  	}
+
+		@media only screen and (max-width: 800px){
+  		.left img{
+  			text-align: center;
+  			width: 250px;
+  		}
+
+  	}
+
+  		@media only screen and (max-width:800px) {
+  		/* For mobile phones: */
+  		.galleryml1 {
+    	width:100%;
+    	height: auto;
+    	text-align: center;
+  		}
+	}
+
+		@media only screen and (max-width: 620px) {
+			.left, .incontent, .right, .footer{
+				width: 100%;
+			}
+		}
+
+	</style>
 </head>
-<body>
-	<center><div class="header1" style="background-color: darkolivegreen; color: whitesmoke;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-		<h1>INDONESIAN NEWS</h1>
-			</div></center>
-	<br>
-	<div class="header" >
-		<a href="home.html">Home</a> &nbsp;||&nbsp;
-		<a href="login.html">Login</a>&nbsp;||&nbsp;
-		<a href="about.html">About</a> &nbsp;||&nbsp;
-		<a href="contact.html">Contact us</a>
+<body><center><div class="header1"><h1>NEWS WEBSITE</h1></div>
+		<div class="header">
+		<a href="../html/home.html">Home</a> &nbsp;||&nbsp;
+        <a href="../html/login.html">Login</a>&nbsp;||&nbsp;
+        <a href="../html/about.html">About</a> &nbsp;||&nbsp;
+        <a href="../html/contak.html">Contact us</a>
 	</div>
 	<hr size="1px">
 	<br>
@@ -24,14 +119,14 @@
 		<ul class="gallery">
 		 <li>
 			<a href="about.html">
-			<img src="worldnews.jpg" alt="World News" class="News">
+			<img src="../img/worldnews.jpg" alt="World News" class="News">
 			<span>WORLD NEWS</span>
 		</a>
 		 </li>
 
 		 	 <li>
 			<a href="about1.html">
-			<img src="asean.jpg" alt="News" class="News">
+			<img src="../img/asean.jpg" alt="News" class="News">
 			<span>ASEAN NEWS</span>
 		</a>
 		 </li>

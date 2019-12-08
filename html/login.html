@@ -6,7 +6,46 @@
     
 <body>
     <style> 
+    *{
+        box-sizing:border-box;
+    }
+    
+.left {
+    background-color: brown;
+    padding: 30px;
+    float: center;
+    width: 20%; 
+    
+    }
+    
+    .main {
+    background-color: brown;
+    padding: 30px;
+    float: center;
+    width: 60%; 
+    
+    }
+    
+    
+    .right {
+    background-color: brown;
+    padding: 30px;
+    float: center;
+    width: 400%; 
+    
+    }
+    
+@media and (max-width: 900px){
+   .left, .main, .right{
+        background-color:burlywood;
+        float:left;
+        width:100%;
+    }
+}
+    
+    </style>
         body{
+
             background-image: url(5.jpg)
         }
             h1{

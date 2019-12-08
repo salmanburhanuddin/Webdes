@@ -2,8 +2,14 @@
 <html>
 <head>
 	<title>Muhammad Salman Burhanuddin/01220190034/IS4</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/about.css">
 	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+
 		p{
 			text-align: left;
 			font-family: sans-serif;
@@ -29,7 +35,6 @@
 
 		.incontent{
 			float: left;
-			width: 33.3%;
 			background-color: white;
 			width: 50%;
 			border: ;
@@ -69,6 +74,34 @@
 			margin: 0;
 		}
 
+		@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+  		.left, .incontent, .right, .footer {
+  		  width:100%;
+  	}
+
+		@media only screen and (max-width: 800px){
+  		.left img{
+  			text-align: center;
+  		}
+
+  	}
+
+  		@media only screen and (max-width:800px) {
+  		/* For mobile phones: */
+  		.galleryml1 {
+    	width:100%;
+    	height: auto;
+    	text-align: center;
+  		}
+	}
+
+		@media only screen and (max-width: 620px) {
+			.left, .incontent, .right, .footer{
+				width: 100%;
+			}
+		}
+
 	</style>
 </head>
 <body>
@@ -87,7 +120,11 @@
 	</div>
 	<div class="incontent">
 		<ul class="gallery1">
-			<img src="../img/world.jpg" alt="Mobile legend" class="galleryml1">
+			<source srcset="" media="(maxwidth:600px">
+			<img src="../img/world.jpg"
+				 data-src-600px="image-600px.jpg"
+				 data-src-600px="image-800px.jpg"
+			 alt="Mobile legend" class="galleryml1">
 		</ul>
 		
 			<h1>World News</h1>
@@ -102,10 +139,8 @@
 		<p>War journalism is one of the best known subfields of world news (although war coverage can be national for the media of belligerent countries themselves). </p>
 
 	</div>
-	
 	</div>
 	</div>
-
 	<div class="footer">
 		<a href="file:///D:/Quis/home.html">Wikipedia</a>
 		<a href="file:///D:/Quis/login.html">Google</a>

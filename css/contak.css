@@ -1,24 +1,24 @@
-/*style yang kami pakai disini adalah style bawaan dari basic yang kami buat */
+body{
+    background-image:url(ica.png)
+}
 .header{
 	width: 100%;
-	height: 30px;
-	color: white;
-	font-size: 20px;
+	height: 20px;
+	color:black;
+	font-size:15px;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing:2px;
+    
 }
 /*style yang kami pakai disini adalah style bawaan dari basic yang kami buat */
+@media only screen and(max-width:500)
 .header1{
-	width: 100%;
-	height: 150px;
-	color: white;
-	line-height: 150px;
-	background-color: purple;
+    font-size:10px;	
 }
-
-}
-/*style untuk kolom pada content */
-.content{
-	width: 250px;
-	text-align: center;
+.header1{
+    background-color: purple;
+    height:100px;
+    width: 100%;
+	height:100px;
+	line-height:50px;
 }

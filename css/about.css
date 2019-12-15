@@ -1,0 +1,318 @@
+		*{
+			box-sizing: border-box;
+		}
+
+		p{
+			text-align: left;
+			font-family: sans-serif;
+		}
+
+		body{
+			background-color:antiquewhite ;
+		}
+
+		a{
+			text-decoration: none;
+			color: #000;
+			border: ;
+			text-transform: 0.6s;		
+		}
+
+				/*style yang kami pakai disini adalah style bawaan dari basic yang kami buat */
+		.header1{
+			width: 100%;
+			height: 150px;
+			color: white;
+			background-color: purple;
+		}
+
+		.header1 h1{
+			margin: 0 auto;
+			
+		}
+		/*style yang kami pakai disini adalah style bawaan dari basic yang kami buat */
+		.header{
+			width: 100%;
+			height: 30px;
+			color: white;
+			font-size: 20px;
+			text-align: center;
+			line-height: 12px;
+			background-color: antiquewhite;
+		}
+
+		.btn{
+			border: ;
+			color: #000;
+			text-decoration: none;
+			transition: 0.6s;
+			background-color: ;
+		}
+
+		.btn:hover{
+			background-color: purple;
+		}
+
+		/*style untuk gambar*/
+		.galleryml1{
+			width: 350px;
+			height: 350px;
+		}
+		/*style untuk buat gambar ke tengah*/
+		.gallery1{
+			text-align: center;
+		}
+
+		.right{
+			background-color:#E6E6FA ;
+			float: left;
+			width: 25%;
+			height: 1000px;
+		}
+
+		.right ul li{
+			list-style-type: none;
+			text-decoration: none;
+		}
+
+		.right img{
+			width: 330px;
+			height: 150px;
+		}
+
+		.right div{
+			border: 1px solid #000;
+			background-color: gray;
+		}
+
+
+		.incontent{
+			float: left;
+			background-color: #fff;
+			width: 50%;
+			border: ;
+			height: 1000px; 
+
+		}
+
+		.left{
+			float: left;
+			width: 25%;
+			background-color:#E6E6FA;
+			height: 1000px;
+			border: ;
+		}
+
+		.hyperlink{
+			background-color: aqua;
+			width: 30%;
+		}
+
+		.hyperlink a{
+			color: #fff;
+		}
+
+		.fottit{
+			background-color: #696969;
+			height: 50%;
+			padding-top: 20px;
+			text-align: center;
+			clear: left;
+			width: 100%;
+		}
+
+		.footer{
+			clear: left;
+			width: 100%;
+			height: 200px;
+			letter-spacing: 2px;
+			background-color: ;
+			margin: auto;
+		}
+
+		.footer img{
+			width: 105px;
+			height: 75px;
+		}
+
+		.boxcontainer{
+			clear: left;
+			height: 200px;
+		}
+
+		.box{
+			width: 33.3%;
+			float: left;
+			padding: 10px;
+			margin-top: 20px;
+			text-align: center;
+			height: 105%; 
+			background-color: ;
+		}
+
+		.header1{
+			line-height: 150px;
+			background-color: purple;
+		}
+
+		.header{
+			border: ;
+			width: 100%;
+			line-height: 70px;
+			height: 70px;
+		}
+
+		.content{
+			margin: 0;
+		}
+
+		.container{
+			border: 1px solid #000;
+		}
+
+		.cb img{
+			width: 330px;
+		}
+
+		.isi{
+			background-color: white;
+		}
+
+		.inright img{
+			width: 100%;
+		}
+
+		.copyright{
+			background-color: purple;
+			clear: left;
+		}
+
+		.copyright p{
+			text-align: center;
+		}
+
+		@media only screen and (max-width: 1240px){
+			.inright img{
+				height: 50%;
+			}
+		}
+
+		@media only screen and (max-width:1070px) {
+  /* For mobile phones: */
+  		.left, .incontent, .right{
+  		  width:100%;
+  		}
+
+  		.inright img{
+  			width: 500px;
+  			height: 175px;
+  		}
+
+  	}
+
+  		@media only and (max-width: 1070px){
+  			.incontent p{
+  				font-size: 5px;
+  			}
+  		}
+
+  		@media only screen and (max-width:1070px) {
+  /* For mobile phones: */
+  		.incontent{
+  		  height: 200%;
+  	}
+
+  		
+  		@media only screen and (max-width: 800px){
+  			.copyright{
+  				background-color: purple;
+  				clear: left;
+  			}
+  		}
+
+			@media only screen and (max-width: 800px){
+  			.box{
+  				height: 400px;
+  			}
+  		}  		
+
+  		@media only screen and (max-width: 1070px){
+  			.left{
+  				height: 50%;
+  			}
+  		}
+
+  		@media only screen and (max-width: 1070px){
+  			.left img{
+  				float:center;
+  			}
+  		}
+
+		@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+  		.left, .incontent, .right, .footer,.fottit{
+  		  width:100%;
+  	}
+
+  		@media only screen and (max-width: 800px){
+  			.incontent{
+  				height: auto;
+  			}
+  		}
+
+		@media only screen and (max-width: 800px){
+  		.left img{
+  			text-align: center;
+  			width: 270px;
+  		}
+
+  		@media only screen and (max-width: 853px){
+  		.right img{
+  			width: 400px;
+  			height: 172.9px;
+  		}
+  	}
+
+  		@media only screen and (max-width:800px) {
+  		/* For mobile phones: */
+  		.galleryml1 {
+    	width:100%;
+    	height: auto;
+    	text-align: center;
+  		}
+
+  		.right img{
+  			width: 300px;
+  		}
+
+	}
+
+		@media only screen and (max-width: 620px) {
+			.left, .incontent, .right, .footer, .box{
+				width: 100%;
+			}
+
+			.right img{
+				width: 250px;
+			}
+
+		}
+
+		@media only screen and (max-width: 853px){
+			.box img{
+				height: 50%;
+			}
+		}
+
+		@media only screen and (max-width: 620px){
+			.header{
+				font-size: 15px;
+			}
+		}
+
+		@media only and (max-width: 853px){
+			.right img {
+				height: 2%;
+			}
+		}
+

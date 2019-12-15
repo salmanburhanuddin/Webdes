@@ -1,5 +1,5 @@
 body{
-    background-image:url(ica.png)
+    background-image:url(../img/ica.png)
 }
 /*syle untuk hyperlink ke semua situs yang kita catum ke a herf dan menggunakan style tulisan ke tengah warna putih*/
 .header{
@@ -17,6 +17,15 @@ body{
 	color: white;
 	line-height: 150px;
 	background-color: purple;
+}
+.header{
+	border: ;
+	width: 99.8%;
+	line-height: 70px;
+	height: 70px;
+}
+.header1{
+	line-height: 150px;
 }
 body{
 	margin: 0px;
